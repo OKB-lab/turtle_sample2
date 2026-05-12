@@ -22,7 +22,7 @@ turtle_practiceパッケージを作成して，パッケージ確認順に沿�
 
 例：
 > cd ~/turtle_ws/src/turtle_sample2     
-> ros2 pkg create turtle_practice --build-type ament_cmake --dependencies rclcpp std_msgs geometry_msgs turtlesim
+> ros2 pkg create turtle_practice --build-type ament_cmake --node-name turtle_practice --dependencies rclcpp std_msgs geometry_msgs turtlesim
 
 ## ビルド
 > cd ~/<ワークスペース>  
