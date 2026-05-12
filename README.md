@@ -18,7 +18,7 @@ turtle_practiceパッケージを作成して，パッケージ確認順に沿�
 
 ## パッケージ作成
 > cd ~/<パッケージを配置するフォルダ>   
-> ros2 pkg create <パッケージ名> --build-type <ビルドタイプ> --dependencies <依存パッケージ>
+> ros2 pkg create <パッケージ名> --build-type <ビルドタイプ> --node-name <ノード名> --dependencies <依存パッケージ>
 
 例：
 > cd ~/turtle_ws/src/turtle_sample2     
